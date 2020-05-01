@@ -1,0 +1,28 @@
+<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/nontechnical.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	</head>
+
+
+<p style="color: white; font-family:'28 Days Later">Cultural Event</p>
+                             <p style="color: white; font-weight:bold"><i class='fas fa-calendar-alt' style='font-size:18px;color:tomato'>DATE:</i>&nbsp;MARCH 2</p>
+                            <p style="color: white; font-weight:bold"><i class="fas fa-clock" style="font-size:18px;color:tomato;text-shadow:2px 2px 4px #000000;">TIME:</i>&nbsp;9AM-12PM</p></header>
+                                           
+
+<i class='fas fa-book-reader' style='font-size:30px;color:yellow'></i>&nbsp;
+
+
+•***REGISTRATION FEE :250 / Head***
+
+<p style="color: white;"> <i class='fas fa-magento' style='font-size:20px;color:silver'>RULES</i><br>
+
+<p style="color: white;"><i class='fas fa-filter' style='font-size:20px;color:silver'>PRELIMS</i><br>
+
+<br><i class='fas fa-crown' style='font-size:20px;color:silver'>FINALS</i> <br>
