@@ -1,0 +1,33 @@
+#txt{
+  font-size:20px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  margin-bottom:10px;
+  text-transform:uppercase;
+}
+.count-container {
+  color: white;
+  text-align: center;
+  padding: 235px;	
+}
+.count-style {
+  display: inline-block;
+  font-size: 10px;
+  list-style-type: none;
+  padding: 0.5vw;
+  text-transform: uppercase;
+  position:relative;
+}
+
+.count-style span {
+  display:grid;
+  font-size: 23px;
+}
+
+@media (max-width: 640px) {
+	.count-style{
+		font-size: 10px;
+	}
+	.count-style span{
+		font-size: 10px;
+	}
+}

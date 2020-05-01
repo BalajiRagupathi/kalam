@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="testApp" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv='cache-control' content='no-cache'>
+   <meta http-equiv='expires' content='0'>
+   <meta http-equiv='pragma' content='no-cache'>
+   <meta name="viewport" content="width=device-width" >
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> KALAM</title>
+  
+  <link rel="icon" href="img/kalamlogotitle.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!---------------------------------------- arch style  ----------------------------------------------->
+    <link rel="stylesheet" href="css/arccss.css">
+    <!---------------------------------------- end arch style  ----------------------------------------------->
+    <!---------------------------------------- wave style  ----------------------------------------------->
+    <link rel="stylesheet" href="css/wavestyle.css">
+    <!---------------------------------------- end wave style  ----------------------------------------------->
+    <!---------------------------------------- countdown style  ----------------------------------------------->
+    <link rel="stylesheet" href="css/count-down.css">
+    <!---------------------------------------- end countdown style  ----------------------------------------------->
+    <link rel="stylesheet" href="css/loadingcss.css">
+    <link rel="stylesheet" href="css/style.css">  
+    <!-------------------------------------------------- event page style----------------------------------->
+	 <link rel="stylesheet" href="css/buttonstyle.css">
+    <!---------------------------------------- end page style-------------------------------------------->
+    <!-------------------------------------- popup message ----------------------------------------------------------->
+<link rel='stylesheet' href='http://cdn.jsdelivr.net/angular.ng-notify/0.6.0/ng-notify.min.css'>
+    <!-------------------------------------- end popup message  -------------------------------------------------------->
+</head>
+
+<body ng-controller="homeController" style="font-size:10px;">
+<!--<div id="loader-wrapper">
+<div class="text">
+	  <p>KALAM means</p>
+	  <p>
+	    <span class="word belize">aesthetic.</span>
+	    <span class="word pomegranate">nebulous.</span>
+	    <span class="word green">sagacious.</span>
+	  </p>
+	</div>
+	<div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+	</div>-->
+	
+<div id="content">
+ <div class="waves"></div>
+	<div>
+  <nav class="nav">
+  <div class="burger">
+    <div class="burger__patty"></div>
+  </div>
+
+  <ul class="nav__list">
+    <li class="nav__item">
+      <a href="#1" class="nav__link c-blue"><i class="fas fa-clipboard-list"></i><p id="icontxtevent"><br><br>Events</p></a>
+    </li>
+    <li class="nav__item">
+      <a href="#2" class="nav__link c-yellow"><i class="fas fa-user-plus"></i><p id="icontxtabout"><br><br>Register</p></a>
+    </li>
+    <li class="nav__item">
+      <a href="#3" class="nav__link c-green"><i class="fas fa-phone"></i><p id="icontxtcontact"><br><br>Contact</p></a>
+    </li>
+    <li class="nav__item">
+      <a href="meet-our-team/team.html" class="nav__link c-red"><i class="fas fa-code"></i><p id="icontxtdev"><br><br>T-Team</p></a>
+    </li>
+  </ul>
+  <div id="navbar">
+  <img id="collegestlye" src="img/college.png">
+</div>
+</nav>
+
+
+<section class="panel b-black" id="111">
+  <article class="panel__wrapper">
+    <div class="panel__content">
+      <div class="panel__block">
+      	<div class="count-container">
+	  <ul>
+	    <li class="count-style"><span id="days"></span>days</li>
+	    <li class="count-style"><span id="hours"></span>Hours</li>
+	    <li class="count-style"><span id="minutes"></span>Minutes</li>
+	    <li class="count-style"><span id="seconds"></span>Seconds</li>
+	  </ul>
+	</div>
+      </div>
+      <div id="arc_container">
+        	<div class="arc_reactor"> 
+        		<div class="case_container e4">
+          			<div class="e7">
+            			<div class="semi_arc_3 e5_1">
+              				<div class="semi_arc_3 e5_2">
+                				<div class="semi_arc_3 e5_3">
+                  					<div class="semi_arc_3 e5_4">
+                  
+                  					</div>
+                 				</div>            
+              				</div>          
+            			</div>     
+    	        		<div class="e4">
+    	        		<img id="logostyle" src="img/kalamlogo.png">
+    	        		</div>      
+          			</div>
+    			      <ul class="marks">
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			        <li></li><li></li><li></li><li></li><li></li><li></li>
+    			      </ul>
+        		</div>
+      		</div>
+    	</div>
+    	<div>
+     </div>
+    </div>
+  </article>
+</section>
+<div class="panel_img b-eventimg">
+<section class="panel" id="1">
+  <article class="panel__wrapper">
+    <div class="panel__content">
+      <h3 class="panel__headline c-blue"><i class="fas fa-clipboard-list"></i>&nbsp;Events</h3>
+      <div class="panel__block"></div>
+      <!---->
+ <p>KALAM is the annual Inter-Collegiate Techno cultural fest hosted by Sri Shakthi Institute of Engineering & Technology, Coimbatore</p>
+       <div class="buttoncontainereven">
+   	<button class="learn-more" >
+    <div class="circle">
+      <span class="icon arrow"></span>
+    </div>
+		<a href="events/index.html"><p class="button-text">Events</p></a>
+  </button>
+   </div>   
+    </div>
+  </article>
+</section>
+</div>
+<div class="panel_img b-regimg">
+<section class="panel" id="2">
+  <article class="panel__wrapper">
+    <div class="panel__content">
+      <h3 class="panel__headline c-yellow"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;Registration</h3>
+      <div class="panel__block"></div>
+      <p style="font-size: 20px;">
+      <i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;60&nbsp;<i style="font-size: 15px;" class="fas fa-plus"></i>&nbsp; Technical events and 30&nbsp;<i style="font-size: 15px;" class="fas fa-plus"></i>&nbsp; Non-Technical Events are available.
+	<br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;You can register by going to the events page and click register on the  event in which you want to participate.<br>
+   <i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;Registration Fees&nbsp;&nbsp;<i class="fas fa-rupee-sign">&nbsp;&nbsp;</i>300 Per Head.(ONE TIME PAYMENT FOR ALL THE THREE DAYS FUN)
+    <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;Online registration is mandatory for reserving your seats. On spot registration may not guarantee the seat.
+    <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;Enter the same E-mail id that has been registered for the previous event again, to register for the next event. 
+     <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;One person can participate in max of 8 events only!
+     <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;You cannot undo the event you have already registered!
+      <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;Currently only on spot payment is done.
+       <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;Students are requested to bring in their college id cards for the events.
+       <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;The coordinators are readily available at any time to call for any clarifications.
+       <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;payment can be done on the spot.
+     <br><i class="far fa-hand-point-right c-yellow"></i>&nbsp;&nbsp;<strong style="color: #F6E35A;">Irrespective of the number of members in a team every participant must register individually.</strong>
+     
+      </p> 
+    </div>
+  </article>
+</section>
+</div>
+<div class="panel_img b-contactimg">
+<section class="panel" id="3">
+  <article class="panel__wrapper">
+    <div class="panel__content">
+      <h3 class="panel__headline c-green"><i class="fas fa-phone"></i>&nbsp;CONTACT US</h3>
+      <div class ="embed-responsive embed-responsive-16by9" >
+          <iframe class="embed-responsive-item" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9792854344782!2d77.07221891481032!3d11.040179792142888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85851693f4a5d%3A0x929165d4884224ee!2sSri+Shakthi+Institute+Of+Engineering+And+Technology!5e0!3m2!1sen!2sin!4v1549341138799" frameborder="0" scrolling="no" ></iframe>
+      </div>
+      <p style="font-size: 16px; text-align: center;"> OS Private Limited<br>22 Gandhipuram<br>Chennai - 72
+       <br><i class="fas fa-mobile-alt">&nbsp;&nbsp;</i><a style="color: #25D366;" href="https://api.whatsapp.com/send?phone=+918220384670"><i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;GJ SIDDHARTH :<a class="atag" href="tel:+918220384670"> 8220384670</a>
+        
+		<br><i class="fas fa-mobile-alt">&nbsp;&nbsp;</i><a style="color: #25D366;" href="https://api.whatsapp.com/send?phone=+917708504309"><i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;PRASANTH :<a class="atag"  href="tel:+917708504309"> 7708504309</a>
+      
+      
+       <br><i class="fas fa-mobile-alt">&nbsp;&nbsp;</i><a style="color: #25D366;" href="https://api.whatsapp.com/send?phone=+919074775502"><i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;MOHAMED BASSAM :<a  class="atag" href="tel:+919074775502">9074775502</a>
+       
+       
+       <br><i class="fas fa-mobile-alt">&nbsp;&nbsp;</i><a style="color: #25D366;" href="https://api.whatsapp.com/send?phone=+919489717377"><i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;NAREN KUMAR :<a class="atag" href="tel:+919489717377"> 9489717377</a>
+       <br><br>
+       
+       
+      	<a href="https://twitter.com/srishakthian" target="_blank" id="twitter"><i style="font-size: 3vw;" class="fab fa-twitter" ></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="https://www.facebook.com/sietcbe/" target="_blank" id="facebook"><i style="font-size: 3vw;" class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="https://instagram.com/kalam2k19?utm_source=ig_profile_share&igshid=c9yu4u0l6236" target="_blank" id="inst"><i style="font-size: 3vw;" class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="https://www.youtube.com/user/ssils2011" target="_blank" id="utube"><i style="font-size: 3vw;" class="fab fa-youtube"></i></a>
+      </p>
+    
+    </div>
+  </article>
+</section>
+</div>
+<!--<section class="panel b-black" id="4">
+  <article class="panel__wrapper">
+    <div class="panel__content">
+      <h3 class="panel__headline c-green"><i class="fas fa-code"></i>&nbsp;</h3>
+      <div class="panel__block"></div>
+      <p>90's wayfarers lomo you probably haven't heard of them trust fund banh mi. Flannel Shoreditch dreamcatcher, quinoa flexitarian Banksy pickled post-ironic lo-fi. Photo booth asymmetrical tousled letterpress.</p>
+    </div>
+  </article>
+</section>-->
+<a href="#111" class="logo" target="_blank">
+ <i class="fas fa-arrow-up"  alt="home"></i> 
+</a>
+ 
+</div>
+</div>
+</body>
+<!---------------------------------------- countdown script  ----------------------------------------------->
+<script type="text/javascript">
+	const second = 1000,
+	      minute = second * 60,
+	      hour = minute * 60,
+	      day = hour * 24;
+
+	let countDown = new Date('febuary 28, 2019 00:00:00').getTime(),
+	    x = setInterval(function() {
+
+	      let now = new Date().getTime(),
+	          distance = countDown - now;
+
+	      document.getElementById('days').innerText = Math.floor(distance / (day)),
+	        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+	        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+	        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+	    }, second)
+</script>
+ <!---------------------------------------- countdown script  ----------------------------------------------->
+ <!---------------------------------------- popup script  ----------------------------------------------->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+	<script src="js/js/index.js"></script>
+ <!------------------------------------ end popup script  ----------------------------------------------->
+ <!--------------------------------------- hide nav bar ----------------------------------------------------->
+ <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "1";
+  } else {
+    document.getElementById("navbar").style.top = "-40px";
+	 document.getElementById("navbar").style.opacity=".96";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<!------------------------------------- alert message---------------------------------------------------->
+ <!--------------------------------------- end nav bar hide ------------------------------------------------->
+
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/loadingjs.js"></script>
+<script src="js/mainloading.js"></script>
+<script src="js/wavejs.js"></script>
+</html>
